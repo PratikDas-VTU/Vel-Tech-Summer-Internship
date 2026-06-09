@@ -140,6 +140,94 @@ Proper documentation enables organizations to monitor software versions and mana
 
 ---
 
+### Vulnerability Research Project
+
+Conducted a software component inventory and vulnerability assessment exercise across four application environments.
+
+#### Applications Analyzed
+
+- MMI
+- Msigma
+- VPN
+- ePramaan
+
+### Activities Performed
+
+Created a four-sheet Excel workbook to track outdated software components and associated vulnerabilities.
+
+#### Applications Analyzed
+
+- MMI
+- Msigma
+- VPN
+- ePramaan
+
+#### Research Activities
+
+- Identified software components used within each application.
+- Documented currently deployed versions.
+- Researched the latest stable versions from official vendor sources.
+- Compared deployed versions against the latest releases.
+- Investigated publicly disclosed vulnerabilities (CVEs).
+- Classified vulnerabilities based on severity.
+
+#### Workbook Structure
+
+Each sheet contained:
+
+- Component Name
+- Current Version
+- Latest Version
+- CVE Availability
+- CVE Identifier
+- Severity
+
+#### Components Researched
+
+Examples include:
+
+- Angular
+- Bootstrap
+- jQuery
+- Font Awesome
+- Chart.js
+- DataTables
+- Moment.js
+- js-sha3
+
+#### Deliverable
+
+Prepared a four-sheet vulnerability tracking workbook containing software version analysis and CVE research findings for multiple application environments.
+
+#### Components Reviewed
+
+Examples include:
+
+- Angular
+- Font Awesome
+- Bootstrap
+- jQuery
+- Chart.js
+- DataTables
+- Moment.js
+- js-sha3
+- File Overview
+
+#### Deliverable
+
+Created a four-sheet Excel workbook containing:
+
+- Component Name
+- Current Version
+- Latest Version
+- CVE Availability
+- CVE Identifier
+- Severity Classification
+
+#### Key Learning
+
+This activity provided practical exposure to software inventory management, vulnerability tracking, version analysis, and security documentation practices commonly used in vulnerability assessment and risk management processes.
+
 # Professional Skills Developed
 
 During Week 2, the following professional skills were strengthened:
