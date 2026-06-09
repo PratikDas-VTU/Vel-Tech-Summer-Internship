@@ -178,3 +178,14 @@ By the end of Week 2, I successfully:
 * Risk Identification
 * Security Research Methodology
 * Spreadsheet-Based Security Tracking
+
+# Evidence of Work
+
+## Security Report Review Activity
+
+A total of 22 Web Application VAPT reports were reviewed and updated as part of the documentation and quality assurance process.
+
+**Confidentiality Notice:**  
+Actual report contents, findings, client information, domains, IP addresses, vulnerabilities, and other sensitive information have been intentionally excluded from this repository in accordance with professional cybersecurity practices.
+
+![Report Review Activity](../Screenshots/week2-report-review-22-reports.png)

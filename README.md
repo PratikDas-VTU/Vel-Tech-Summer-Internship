@@ -184,6 +184,11 @@ Vel Tech Summer Internship/
 │   └── Week2-Progress.md
 │
 └── Screenshots/
+    ├── Kali-Linux.png
+    ├── Ubuntu.png
+    ├── tryhackme-progress.png
+    ├── overthewire-bandit-level6.png
+    └── week2-report-review-22-reports.png
 ```
 
 ---

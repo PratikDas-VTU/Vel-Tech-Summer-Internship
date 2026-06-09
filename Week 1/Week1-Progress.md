@@ -685,3 +685,27 @@ cat
 The OverTheWire Bandit challenges provided hands-on experience with Linux commands and file system navigation. These exercises strengthened foundational skills that are essential for cybersecurity, penetration testing, system administration, and digital forensics.
 
 ---
+
+# Evidence of Work
+
+## Kali Linux Virtual Machine
+
+![Kali Linux](../Screenshots/Kali-Linux.png)
+
+---
+
+## Ubuntu Linux Virtual Machine
+
+![Ubuntu Linux](../Screenshots/Ubuntu.png)
+
+---
+
+## TryHackMe Progress
+
+![TryHackMe Progress](../Screenshots/tryhackme-progress.png)
+
+---
+
+## OverTheWire Bandit Progress
+
+![OverTheWire Bandit](../Screenshots/overthewire-bandit-level6.png)
