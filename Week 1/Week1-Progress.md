@@ -37,7 +37,6 @@ Installed Kali Linux in VirtualBox.
 * Burp Suite
 * Metasploit Framework
 * Wireshark
-* Gobuster
 
 ### Learning Outcome
 
