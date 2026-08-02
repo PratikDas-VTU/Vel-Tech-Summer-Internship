@@ -1,32 +1,16 @@
 # Week 2: Vulnerability Research & Security Reporting
 
-## Objectives
-- Understand enterprise vulnerability management workflows.
-- Learn to review and standardize technical security assessment reports.
-- Map publicly disclosed vulnerabilities (CVEs) to deployed software versions.
+## Overview
+Week 2 shifted focus from lab environments to real-world enterprise vulnerability management. I was tasked with reviewing technical security reports, mapping vulnerable software components, and standardizing compliance data using Excel.
 
-## Activities
-1. **Security Report Review**: Reviewed and formatted 22 Web Application VAPT (Vulnerability Assessment and Penetration Testing) reports, correcting formatting inconsistencies and verifying technical findings.
-2. **Vulnerability Research**: Conducted a software component inventory across four internal application environments (MMI, Msigma, VPN, ePramaan), identifying outdated libraries (Angular, Bootstrap, jQuery).
-3. **CVE Mapping**: Queried the National Vulnerability Database (NVD) to identify vulnerabilities affecting the deployed software versions.
-4. **Excel-Based Tracking**: Created a structured, four-sheet Excel workbook mapping Component Names, Current Versions, Latest Versions, CVE Identifiers, and Severity Classifications.
+## Documentation
+* [VAPT Report Analysis](VAPT%20Report%20Analysis.md)
+* [Vulnerability Research](Vulnerability%20Research.md)
+* [CVE & NVD Research](CVE%20&%20NVD%20Research.md)
+* [Excel Documentation](Excel%20Documentation.md)
 
-## Learning
-- Learned the critical importance of accurate, standardized documentation in cybersecurity reporting.
-- Gained practical exposure to CVE analysis, CVSS severity classification, and software version management.
-
-## Technologies Used
-- National Vulnerability Database (NVD), Microsoft Excel, Internal VAPT Reports.
-
-## Challenges
-- Managing and normalizing large volumes of security data across multiple application environments.
-- Ensuring strict confidentiality while handling sensitive client assessment reports.
-
-## Key Outcomes
-- Successfully structured the vulnerability data into an actionable tracking workbook.
-- Identified that manual review of complex security reports is time-consuming and prone to human error, which directly motivated the automation project planned for Weeks 3 and 4.
-
-## Screenshots
-### Report Review Activity
-*(Note: Actual report contents are omitted due to strict organizational confidentiality)*
-![Report Review](Screenshots/week2-report-review-22-reports.png)
+## Weekly Objectives
+- Understand how vulnerabilities are documented and presented to clients.
+- Map publicly disclosed vulnerabilities to deployed software versions.
+- Standardize and format complex security assessment reports.
+- Structure large volumes of vulnerability data into actionable tracking sheets.
