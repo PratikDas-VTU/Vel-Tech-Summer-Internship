@@ -2,190 +2,44 @@
 
 ## Internship Overview
 
-The second week of the internship focused on cybersecurity documentation, vulnerability research, software version analysis, and security reporting activities. The work involved reviewing security reports, identifying outdated software components, researching vulnerabilities, and documenting findings in a structured format.
+The second week of the internship focused on cybersecurity documentation, vulnerability research, software version analysis, and security reporting activities. The work involved reviewing security reports, identifying outdated software components, researching vulnerabilities, documenting findings, and initiating the development of automated compliance checks.
 
 ---
 
-# Security Report Review and Modification
+## 📄 Security Report Review and Modification
 
-## Objective
-
+### Objective
 Review and update cybersecurity reports to improve accuracy, consistency, and documentation quality.
 
 ### Activities Performed
-
-* Reviewed multiple cybersecurity reports.
-* Updated report contents where required.
-* Corrected formatting inconsistencies.
-* Verified technical information.
-* Improved report readability and structure.
-* Standardized documentation format.
-
-### Work Completed
-
-* Modified and reviewed **22 cybersecurity reports**.
-
-### Skills Learned
-
-* Security documentation practices
-* Technical report analysis
-* Report formatting and standardization
-* Attention to detail in security assessments
-* Professional cybersecurity reporting
+- Reviewed **22 Web Application VAPT reports**.
+- Updated report contents and corrected formatting inconsistencies.
+- Verified technical information and improved report readability.
+- Standardized the documentation format across all deliverables.
 
 ### Key Takeaway
-
 Documentation is a critical part of cybersecurity. Accurate reporting ensures that vulnerabilities, findings, and recommendations are properly communicated to stakeholders.
 
 ---
 
-# Vulnerability Research and Software Analysis
+## 🔍 Vulnerability Research and Software Analysis
 
-## Objective
+### Objective
+Identify outdated software components across internal applications and research associated security vulnerabilities.
 
-Identify outdated software components and research associated security vulnerabilities.
-
-### Activities Performed
-
-* Analyzed software and component versions.
-* Compared current versions against vendor-released versions.
-* Identified outdated software components.
-* Verified latest stable releases.
-* Researched publicly disclosed vulnerabilities.
-
-### Research Process
-
-1. Identify software/component name.
-2. Verify currently installed version.
-3. Find latest available version.
-4. Research associated CVEs.
-5. Document findings.
-6. Organize information into spreadsheets.
-
-### Skills Learned
-
-* Vulnerability management
-* Software inventory analysis
-* Version tracking
-* Security research
-* CVE identification
-
-### Key Takeaway
-
-Maintaining updated software is an important aspect of cybersecurity because outdated software may contain publicly known vulnerabilities.
-
----
-
-# CVE Research
-
-## Objective
-
-Identify Common Vulnerabilities and Exposures (CVEs) affecting outdated software versions.
+### Applications Analyzed
+- **MMI**
+- **Msigma**
+- **VPN**
+- **ePramaan**
 
 ### Activities Performed
+- Analyzed currently deployed software and component versions.
+- Researched the latest stable releases from official vendor sources.
+- Investigated publicly disclosed vulnerabilities (CVEs) affecting the deployed versions.
+- Classified vulnerabilities based on severity using NVD data.
 
-* Researched vulnerabilities from public databases.
-* Investigated software security advisories.
-* Mapped CVEs to software versions.
-* Recorded vulnerability information for reporting purposes.
-
-### Sources Used
-
-* National Vulnerability Database (NVD)
-* Vendor Security Advisories
-* CVE Database
-* Official Software Release Notes
-
-### Skills Learned
-
-* CVE analysis
-* Vulnerability assessment
-* Security intelligence gathering
-* Risk identification
-
-### Key Takeaway
-
-Understanding CVEs helps security professionals assess risk levels and prioritize remediation efforts.
-
----
-
-# Excel-Based Vulnerability Tracking
-
-## Objective
-
-Create a structured spreadsheet for tracking outdated components and vulnerabilities.
-
-### Activities Performed
-
-Created an Excel workbook containing multiple sheets for different software categories.
-
-Each sheet included:
-
-* Component Name
-* Current Version
-* Latest Version
-* Associated CVEs
-* Security Notes
-
-### Skills Learned
-
-* Security asset tracking
-* Data organization
-* Spreadsheet documentation
-* Vulnerability management workflow
-
-### Key Takeaway
-
-Proper documentation enables organizations to monitor software versions and manage security risks efficiently.
-
----
-
-### Vulnerability Research Project
-
-Conducted a software component inventory and vulnerability assessment exercise across four application environments.
-
-#### Applications Analyzed
-
-- MMI
-- Msigma
-- VPN
-- ePramaan
-
-### Activities Performed
-
-Created a four-sheet Excel workbook to track outdated software components and associated vulnerabilities.
-
-#### Applications Analyzed
-
-- MMI
-- Msigma
-- VPN
-- ePramaan
-
-#### Research Activities
-
-- Identified software components used within each application.
-- Documented currently deployed versions.
-- Researched the latest stable versions from official vendor sources.
-- Compared deployed versions against the latest releases.
-- Investigated publicly disclosed vulnerabilities (CVEs).
-- Classified vulnerabilities based on severity.
-
-#### Workbook Structure
-
-Each sheet contained:
-
-- Component Name
-- Current Version
-- Latest Version
-- CVE Availability
-- CVE Identifier
-- Severity
-
-#### Components Researched
-
-Examples include:
-
+### Components Researched
 - Angular
 - Bootstrap
 - jQuery
@@ -195,85 +49,63 @@ Examples include:
 - Moment.js
 - js-sha3
 
-#### Deliverable
+### Key Takeaway
+Maintaining updated software is a critical aspect of cybersecurity. Outdated software introduces unnecessary risk through publicly known vulnerabilities.
 
-Prepared a four-sheet vulnerability tracking workbook containing software version analysis and CVE research findings for multiple application environments.
+---
 
-#### Components Reviewed
+## 📊 Excel-Based Vulnerability Tracking
 
-Examples include:
+### Objective
+Create a structured spreadsheet for tracking outdated components and managing the vulnerability workflow.
 
-- Angular
-- Font Awesome
-- Bootstrap
-- jQuery
-- Chart.js
-- DataTables
-- Moment.js
-- js-sha3
-- File Overview
-
-#### Deliverable
-
-Created a four-sheet Excel workbook containing:
-
+### Deliverable
+Created a comprehensive **four-sheet Excel workbook** corresponding to the four applications analyzed. Each sheet contained:
 - Component Name
 - Current Version
 - Latest Version
-- CVE Availability
-- CVE Identifier
+- CVE Availability & Identifier
 - Severity Classification
+- Security Notes
 
-#### Key Learning
-
-This activity provided practical exposure to software inventory management, vulnerability tracking, version analysis, and security documentation practices commonly used in vulnerability assessment and risk management processes.
-
-# Professional Skills Developed
-
-During Week 2, the following professional skills were strengthened:
-
-* Technical documentation
-* Security reporting
-* Vulnerability research
-* CVE analysis
-* Version management
-* Information gathering
-* Attention to detail
-* Spreadsheet-based tracking
-* Research methodology
+### Key Takeaway
+Proper documentation and asset tracking enable organizations to monitor software versions and manage security risks efficiently.
 
 ---
 
-# Week 2 Outcome
+## 🚀 Compliance Automation & Development
 
-By the end of Week 2, I successfully:
+### Objective
+Streamline the review process for security documents and VAPT reports by developing a dedicated validation application.
 
-* Modified and reviewed 22 cybersecurity reports.
-* Conducted vulnerability research on outdated software components.
-* Compared current and latest software versions.
-* Identified relevant CVEs for vulnerable software versions.
-* Created structured Excel-based vulnerability tracking documentation.
-* Improved cybersecurity research and reporting skills.
-* Gained practical exposure to vulnerability management processes used in industry.
+### Activities Performed
+- Conceptualized the **Document Compliance & Validation Checker**.
+- Designed the initial UI/UX for uploading and analyzing security reports.
+- Integrated a Rules Engine capable of parsing thousands of cybersecurity terms and dictionary words.
+- *Note: Development of this tool progressed throughout the remainder of the internship, culminating in the final polished platform seen in the project root.*
 
-## Skills Acquired
+---
 
-* Security Documentation
-* Vulnerability Management
-* CVE Research
-* Technical Reporting
-* Software Version Analysis
-* Risk Identification
-* Security Research Methodology
-* Spreadsheet-Based Security Tracking
+## 💼 Professional Skills Developed
+- Technical Documentation & Security Reporting
+- Vulnerability Research & CVE Analysis
+- Software Version Management
+- Automation & Application UI Design
+- Spreadsheet-Based Security Tracking
+- Attention to Detail and QA
 
-# Evidence of Work
+---
 
-## Security Report Review Activity
+## 🎯 Week 2 Outcome
+By the end of Week 2, I successfully reviewed 22 VAPT reports, conducted deep vulnerability research on multiple application environments, and created a structured tracking system. These tasks solidified my understanding of enterprise vulnerability management and highlighted the need for automation in compliance validation.
 
+---
+
+## 📸 Evidence of Work
+
+### Security Report Review Activity
 A total of 22 Web Application VAPT reports were reviewed and updated as part of the documentation and quality assurance process.
 
-**Confidentiality Notice:**  
-Actual report contents, findings, client information, domains, IP addresses, vulnerabilities, and other sensitive information have been intentionally excluded from this repository in accordance with professional cybersecurity practices.
+> **Confidentiality Notice:** Actual report contents, client information, domains, IP addresses, vulnerabilities, and other sensitive data have been intentionally excluded from this repository in accordance with professional cybersecurity practices.
 
 ![Report Review Activity](../Screenshots/week2-report-review-22-reports.png)
