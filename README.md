@@ -1,138 +1,54 @@
-# Vel Tech Summer Internship 2026: Cyber Security & Compliance Automation
+# Cybersecurity Internship & Compliance Automation Portfolio
 
-![Cyber Security](https://img.shields.io/badge/Domain-Cyber%20Security-blue.svg)
-![Linux](https://img.shields.io/badge/Platform-Linux-orange.svg)
-![Compliance](https://img.shields.io/badge/Focus-Compliance%20Validation-success.svg)
-![Internship](https://img.shields.io/badge/Type-Summer%20Internship-purple.svg)
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat&logo=python)
+![CustomTkinter](https://img.shields.io/badge/UI-CustomTkinter-success?style=flat)
+![Computer Vision](https://img.shields.io/badge/CV-OpenCV-orange?style=flat)
+![Domain](https://img.shields.io/badge/Domain-Cybersecurity-purple?style=flat)
 
-## 📌 Project Overview
-This repository documents my 2026 Summer Internship at **Necurity Solutions Network Security Pvt. Ltd.** The internship focused on establishing a robust foundation in Cyber Security, Linux Administration, Vulnerability Analysis, and culminated in the development of a **Document Compliance & Validation Checker** application to automate security report reviews.
+Welcome to my 2026 Summer Internship showcase at **Necurity Solutions Network Security Pvt. Ltd.** 
 
----
-
-## 👨‍🎓 Internship Details
-- **Name:** Pratik Das
-- **College:** Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology
-- **Department:** B.Tech Computer Science and Engineering (Cyber Security)
-
-## 🏢 Organization
-**Necurity Solutions Network Security Pvt. Ltd.**
+This repository documents my transition from foundational cybersecurity research and manual Vulnerability Assessment (VAPT) reviews to architecting and developing the **Document Compliance & Validation Application**—an enterprise-grade automation tool designed to standardize security reporting.
 
 ---
 
-## 🎯 Internship Objectives
-- 🛡️ **Cyber Security Research:** Study and analyze modern attack vectors and defense mechanisms.
-- 🐧 **Linux Administration:** Master command-line operations, file permissions, and network diagnostics.
-- 🔍 **Vulnerability Analysis:** Identify and document outdated software components and their associated CVEs.
-- 📄 **Security Reporting:** Review Web Application VAPT reports for quality assurance and compliance.
-- ⚙️ **Automation Development:** Build a compliance validation tool to streamline the review of security documents.
+## 🧭 Repository Navigation
+
+This repository is structured as a professional engineering portfolio. Use the links below to explore the detailed documentation.
+
+### 📚 Project Documentation (The Application)
+Learn about the automated tool developed to solve manual QA bottlenecks in cybersecurity reporting.
+* **[Project Overview](docs/project-overview.md)**: The problem, the solution, and key outcomes.
+* **[Technology Stack](docs/technology-stack.md)**: Breakdown of Python, PyMuPDF, OpenCV, and CustomTkinter.
+* **[Core Features](docs/features.md)**: Document Parsing, Branding Consistency, and Vulnerability Validation.
+* **[System Architecture](docs/architecture.md)**: High-level data flow and processing diagrams.
+* **[Engineering Challenges](docs/engineering-challenges.md)**: Deep dive into parsing disparate formats and solving computer vision false positives.
+* **[Engineering Decisions](docs/engineering-decisions.md)**: Rationale behind desktop vs. cloud, asynchronous threading, and data persistence.
+* **[Development Lifecycle](docs/development-lifecycle.md)**: The 6-phase engineering evolution of the software build.
+* **[Roadmap & Milestones](docs/roadmap.md)**: Completed goals and future enhancements.
+
+### 🗓️ Internship Journey (The Experience)
+Follow my chronological learning path and weekly activities.
+* **[Week 1: Foundation & Environment Setup](docs/weekly-progress/week1.md)**
+* **[Week 2: Vulnerability Research & Security Reporting](docs/weekly-progress/week2.md)**
+* **[Week 3: Automation Design & Prototyping](docs/weekly-progress/week3.md)**
+* **[Week 4: Final Development, Testing & Delivery](docs/weekly-progress/week4.md)**
+* **[Learning Outcomes & Skills Acquired](docs/learning-outcomes.md)**
+
+### 🔐 Administration
+* **[Repository Navigation Guide](docs/repository-guide.md)**: Guide for recruiters and engineers.
+* **[Confidentiality Rules](docs/confidentiality.md)**: Explanation of omitted proprietary data, source code, and client reports.
+* **[Certificates](certificates/)**: Official offer and completion letters.
 
 ---
 
-## 💻 Technologies & Tools Used
-- **Operating Systems:** Kali Linux, Ubuntu, Windows
-- **Virtualization:** Oracle VirtualBox
-- **Security Platforms:** TryHackMe, OverTheWire Bandit
-- **Development & Automation:** Custom Document Compliance Checker
+## 📸 Application Preview
+
+The following UI mockups demonstrate the application's interface using generalized data:
+
+| Rules Engine Integration | Platform Dashboard |
+| :---: | :---: |
+| ![Rules Engine](assets/ui/02_Rules_Engine.jpeg) | ![Platform Dashboard](assets/ui/03_Platform_Dashboard.jpeg) |
+| *Managing thousands of cybersecurity terms.* | *Real-time scan metrics and system health.* |
 
 ---
-
-## 🚀 Development Progress: Document Compliance Checker
-
-As part of streamlining the review of 22 VAPT reports, I developed a **Document Compliance & Validation Checker**. Below is the chronological evolution of the application:
-
-### Stage 1: Initial Interface & Prototyping
-The initial prototype focused on establishing the core UI structure, including a sidebar and empty dashboard placeholders for compliance scores and findings.
-
-![Stage 1: Initial Interface](Screenshots/01_Initial_Interface.jpeg)
-
-### Stage 2: Knowledge Base & Rules Engine Integration
-Added the underlying rules engine capable of parsing thousands of dictionary words, cybersecurity terms, acronyms, and a vulnerability knowledge base. This provided the logical backbone for the compliance checks.
-
-![Stage 2: Rules Engine](Screenshots/02_Rules_Engine.jpeg)
-
-### Stage 3: Platform Dashboard & Analytics
-Refined the UI branding ("ComplianceCheck") and implemented real-time metrics showing documents scanned, average match confidence, and a summary of critical issues.
-
-![Stage 3: Platform Dashboard](Screenshots/03_Platform_Dashboard.jpeg)
-
-### Stage 4: Comprehensive Reporting Engine
-Developed the detailed report view allowing users to analyze specific documents (e.g., "Dark Web Monitoring.pdf"), displaying executive summaries, passed/failed validation checks, and branding consistency scores.
-
-![Stage 4: Compliance Report](Screenshots/04_Compliance_Report.jpeg)
-
----
-
-## 📅 Development Timeline
-
-- [**Week 1**](Week%201/Week1-Progress.md): Virtual Lab Setup, Linux Fundamentals, Penetration Testing Basics (TryHackMe & OverTheWire).
-- [**Week 2**](Week%202/Week2-Progress.md): Vulnerability Research, Security Report Review, and Excel tracking.
-- [**Week 3**](Week%203/Week3-Progress.md): DCV Checker Prototyping, UI Design, and Rules Engine Integration.
-- [**Week 4**](Week%204/Week4-Progress.md): Final Platform Dashboard, Compliance Reporting, Testing, and Final Deliverables.
-
----
-
-## 📂 Folder Structure
-
-```text
-Vel Tech Summer Internship/
-│
-├── README.md                              # Main project documentation
-├── .gitignore                             # Ignored files for Git
-├── LICENSE                                # Project license
-│
-├── Week 1/                                # First week progress and tasks
-│   └── Week1-Progress.md
-│
-├── Week 2/                                # Second week progress and tasks
-│   ├── Week2-Progress.md
-│   └── Vulnerability-Research-Summary.md
-│
-├── Week 3/                                # Third week progress and development
-│   └── Week3-Progress.md
-│
-├── Week 4/                                # Fourth week progress and testing
-│   └── Week4-Progress.md
-│
-└── Screenshots/                           # Image assets and progress evidence
-    ├── 01_Initial_Interface.jpeg
-    ├── 02_Rules_Engine.jpeg
-    ├── 03_Platform_Dashboard.jpeg
-    ├── 04_Compliance_Report.jpeg
-    └── [Additional lab screenshots]
-```
-
----
-
-## 🏆 Key Deliverables
-1. **Virtual Lab Environment:** Fully functional Kali and Ubuntu VMs.
-2. **Security Documentation:** 4-sheet Excel workbook mapping CVEs to outdated software components.
-3. **Quality Assurance:** 22 reviewed and modified Web Application VAPT reports.
-4. **Compliance Checker App:** A working platform for automating document compliance and validation.
-
----
-
-## 🧗 Challenges Faced
-- **Information Overload:** Navigating the vast amount of CVE data and mapping them accurately to software versions.
-- **Confidentiality Restrictions:** Learning how to effectively document progress and findings without exposing sensitive organizational data or client IPs.
-- **UI/UX Consistency:** Iterating on the Compliance Checker application to ensure a professional, intuitive user experience while handling complex data.
-
----
-
-## 🧠 Learning Outcomes
-- Acquired hands-on experience with **Linux command-line** tools and **OSINT** investigations.
-- Gained a deep understanding of **Vulnerability Management workflows** and the **CVSS scoring** system.
-- Learned the importance of **meticulous security reporting** and how automation can reduce human error in compliance checks.
-
----
-
-## ✨ Final Outcome
-This internship successfully bridged the gap between theoretical cybersecurity concepts and practical, enterprise-level application. The creation of the Document Compliance Checker demonstrates not only an understanding of security vulnerabilities but also the ability to build solutions that improve organizational efficiency.
-
----
-
-## 🙏 Acknowledgements
-A special thanks to the mentors and the team at **Necurity Solutions Network Security Pvt. Ltd.** for their guidance, support, and the opportunity to contribute to real-world security projects.
-
----
-*Maintained as part of the Vel Tech Summer Internship Program (2026).*
+*Developed during the Vel Tech Summer Internship Program (2026).*
