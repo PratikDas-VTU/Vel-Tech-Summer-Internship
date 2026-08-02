@@ -65,9 +65,10 @@ Developed the detailed report view allowing users to analyze specific documents 
 
 ## 📅 Development Timeline
 
-- **Week 1:** Virtual Lab Setup, Linux Fundamentals, Penetration Testing Basics (TryHackMe & OverTheWire).
-- **Week 2:** Vulnerability Research, Security Report Review, and Automation Scripting for the Compliance Checker.
-- **Week 3 & 4:** App Refinement, UI Improvements, Rules Engine Optimization, and Final Documentation (Consolidated in Week 2 progress logs).
+- [**Week 1**](Week%201/Week1-Progress.md): Virtual Lab Setup, Linux Fundamentals, Penetration Testing Basics (TryHackMe & OverTheWire).
+- [**Week 2**](Week%202/Week2-Progress.md): Vulnerability Research, Security Report Review, and Excel tracking.
+- [**Week 3**](Week%203/Week3-Progress.md): DCV Checker Prototyping, UI Design, and Rules Engine Integration.
+- [**Week 4**](Week%204/Week4-Progress.md): Final Platform Dashboard, Compliance Reporting, Testing, and Final Deliverables.
 
 ---
 
@@ -86,6 +87,12 @@ Vel Tech Summer Internship/
 ├── Week 2/                                # Second week progress and tasks
 │   ├── Week2-Progress.md
 │   └── Vulnerability-Research-Summary.md
+│
+├── Week 3/                                # Third week progress and development
+│   └── Week3-Progress.md
+│
+├── Week 4/                                # Fourth week progress and testing
+│   └── Week4-Progress.md
 │
 └── Screenshots/                           # Image assets and progress evidence
     ├── 01_Initial_Interface.jpeg
